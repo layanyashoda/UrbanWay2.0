@@ -120,4 +120,12 @@ logIntButton.addEventListener("click", function (e) {
     // }
 });
 
+// Forgot Password Notification 
 
+function forgotNotification(){
+    const forgot = document.querySelector('.forgotNotification');
+    forgot.classList.add('active')
+    setTimeout(() => {
+    forgot.classList.remove("active");
+}, 5000);
+}
